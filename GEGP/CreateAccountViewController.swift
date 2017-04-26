@@ -1,13 +1,13 @@
 //
-//  ThirdViewController.swift
+//  CreateAccountViewController.swift
 //  GEGP
 //
-//  Created by Eric Fry on 3/2/17.
+//  Created by Eric Fry on 3/9/17.
 //  Copyright © 2017 Eric Fry. All rights reserved.
 //
 import UIKit
 
-class ThirdViewController: UIViewController {
+class CreateAccountViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

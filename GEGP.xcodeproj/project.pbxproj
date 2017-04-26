@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		730079541E68DE25002D0D2F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730079531E68DE25002D0D2F /* ThirdViewController.swift */; };
+		730079541E68DE25002D0D2F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730079531E68DE25002D0D2F /* ProfileViewController.swift */; };
+		730D7DE51EB0F8A90037EF7F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D7DE41EB0F8A90037EF7F /* Alamofire.framework */; };
+		7367DB0D1E71F5DE00800D71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367DB0C1E71F5DE00800D71 /* LoginViewController.swift */; };
+		7367DB0F1E7207EC00800D71 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7367DB0E1E7207EC00800D71 /* MapKit.framework */; };
+		7367DB111E720A2700800D71 /* LoginGEGPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367DB101E720A2700800D71 /* LoginGEGPViewController.swift */; };
+		7367DB131E720A4300800D71 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367DB121E720A4300800D71 /* CreateAccountViewController.swift */; };
+		73DB48451EB0164100E82C92 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB48441EB0164100E82C92 /* MapPin.swift */; };
+		73DB48471EB0411600E82C92 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB48461EB0411600E82C92 /* DatabaseController.swift */; };
+		73DB48491EB0EA3200E82C92 /* TagLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB48481EB0EA3200E82C92 /* TagLocationViewController.swift */; };
+		73DB484B1EB0F3E800E82C92 /* BuildingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB484A1EB0F3E800E82C92 /* BuildingController.swift */; };
 		73E9D0AC1E6798FC00758A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AB1E6798FC00758A53 /* AppDelegate.swift */; };
-		73E9D0AE1E6798FC00758A53 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AD1E6798FC00758A53 /* FirstViewController.swift */; };
-		73E9D0B01E6798FC00758A53 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AF1E6798FC00758A53 /* SecondViewController.swift */; };
+		73E9D0AE1E6798FC00758A53 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AD1E6798FC00758A53 /* MapViewController.swift */; };
+		73E9D0B01E6798FC00758A53 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AF1E6798FC00758A53 /* SearchViewController.swift */; };
 		73E9D0B31E6798FC00758A53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E9D0B11E6798FC00758A53 /* Main.storyboard */; };
 		73E9D0B51E6798FC00758A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E9D0B41E6798FC00758A53 /* Assets.xcassets */; };
 		73E9D0B81E6798FC00758A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E9D0B61E6798FC00758A53 /* LaunchScreen.storyboard */; };
@@ -20,11 +29,20 @@
 /* Begin PBXFileReference section */
 		2228A58E762429DDD3CDFD25 /* Pods_GEGP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GEGP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		268607058D8AB1CAB53A5C49 /* Pods-GEGP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEGP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GEGP/Pods-GEGP.debug.xcconfig"; sourceTree = "<group>"; };
-		730079531E68DE25002D0D2F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		730079531E68DE25002D0D2F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		730D7DE41EB0F8A90037EF7F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/GEGP-fwhvhzwjdyxxrkdzzfolhvasjdgb/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		7367DB0C1E71F5DE00800D71 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7367DB0E1E7207EC00800D71 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7367DB101E720A2700800D71 /* LoginGEGPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginGEGPViewController.swift; sourceTree = "<group>"; };
+		7367DB121E720A4300800D71 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		73DB48441EB0164100E82C92 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		73DB48461EB0411600E82C92 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		73DB48481EB0EA3200E82C92 /* TagLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagLocationViewController.swift; sourceTree = "<group>"; };
+		73DB484A1EB0F3E800E82C92 /* BuildingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingController.swift; sourceTree = "<group>"; };
 		73E9D0A81E6798FC00758A53 /* GEGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E9D0AB1E6798FC00758A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73E9D0AD1E6798FC00758A53 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		73E9D0AF1E6798FC00758A53 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		73E9D0AD1E6798FC00758A53 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		73E9D0AF1E6798FC00758A53 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		73E9D0B21E6798FC00758A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73E9D0B41E6798FC00758A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E9D0B71E6798FC00758A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730D7DE51EB0F8A90037EF7F /* Alamofire.framework in Frameworks */,
+				7367DB0F1E7207EC00800D71 /* MapKit.framework in Frameworks */,
 				BA568DA4A3181B506609275E /* Pods_GEGP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +68,8 @@
 		43B42A86752F1A3B1763EC3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				730D7DE41EB0F8A90037EF7F /* Alamofire.framework */,
+				7367DB0E1E7207EC00800D71 /* MapKit.framework */,
 				2228A58E762429DDD3CDFD25 /* Pods_GEGP.framework */,
 			);
 			name = Frameworks;
@@ -76,9 +98,16 @@
 			children = (
 				73E9D0BF1E679E8B00758A53 /* GEGP.entitlements */,
 				73E9D0AB1E6798FC00758A53 /* AppDelegate.swift */,
-				73E9D0AD1E6798FC00758A53 /* FirstViewController.swift */,
-				73E9D0AF1E6798FC00758A53 /* SecondViewController.swift */,
-				730079531E68DE25002D0D2F /* ThirdViewController.swift */,
+				7367DB0C1E71F5DE00800D71 /* LoginViewController.swift */,
+				73E9D0AD1E6798FC00758A53 /* MapViewController.swift */,
+				73E9D0AF1E6798FC00758A53 /* SearchViewController.swift */,
+				730079531E68DE25002D0D2F /* ProfileViewController.swift */,
+				73DB48461EB0411600E82C92 /* DatabaseController.swift */,
+				7367DB101E720A2700800D71 /* LoginGEGPViewController.swift */,
+				7367DB121E720A4300800D71 /* CreateAccountViewController.swift */,
+				73DB48481EB0EA3200E82C92 /* TagLocationViewController.swift */,
+				73DB484A1EB0F3E800E82C92 /* BuildingController.swift */,
+				73DB48441EB0164100E82C92 /* MapPin.swift */,
 				73E9D0B11E6798FC00758A53 /* Main.storyboard */,
 				73E9D0B41E6798FC00758A53 /* Assets.xcassets */,
 				73E9D0B61E6798FC00758A53 /* LaunchScreen.storyboard */,
@@ -140,6 +169,9 @@
 							com.apple.Keychain = {
 								enabled = 1;
 							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
 						};
 					};
 				};
@@ -188,7 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8A40BF3D2843AE3DDA8DC412 /* [CP] Copy Pods Resources */ = {
@@ -228,10 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E9D0B01E6798FC00758A53 /* SecondViewController.swift in Sources */,
+				7367DB131E720A4300800D71 /* CreateAccountViewController.swift in Sources */,
+				73E9D0B01E6798FC00758A53 /* SearchViewController.swift in Sources */,
+				7367DB111E720A2700800D71 /* LoginGEGPViewController.swift in Sources */,
 				73E9D0AC1E6798FC00758A53 /* AppDelegate.swift in Sources */,
-				730079541E68DE25002D0D2F /* ThirdViewController.swift in Sources */,
-				73E9D0AE1E6798FC00758A53 /* FirstViewController.swift in Sources */,
+				730079541E68DE25002D0D2F /* ProfileViewController.swift in Sources */,
+				73DB48471EB0411600E82C92 /* DatabaseController.swift in Sources */,
+				73DB48491EB0EA3200E82C92 /* TagLocationViewController.swift in Sources */,
+				7367DB0D1E71F5DE00800D71 /* LoginViewController.swift in Sources */,
+				73DB48451EB0164100E82C92 /* MapPin.swift in Sources */,
+				73DB484B1EB0F3E800E82C92 /* BuildingController.swift in Sources */,
+				73E9D0AE1E6798FC00758A53 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

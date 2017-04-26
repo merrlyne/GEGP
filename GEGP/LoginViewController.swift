@@ -1,20 +1,21 @@
 //
-//  FirstViewController.swift
+//  LoginViewController.swift
 //  GEGP
 //
-//  Created by Eric Fry on 3/1/17.
+//  Created by Eric Fry on 3/9/17.
 //  Copyright © 2017 Eric Fry. All rights reserved.
 //
 
 import UIKit
 import FBSDKLoginKit
 
-class FirstViewController: UIViewController, FBSDKLoginButtonDelegate {
+class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     @IBOutlet weak var lblLoginStatus: UILabel!
     @IBOutlet weak var profilePictureView: FBSDKProfilePictureView!
     @IBOutlet weak var FBloginButton: FBSDKLoginButton!
     @IBOutlet weak var lblUserName: UILabel!
     @IBOutlet weak var lblEmail: UILabel!
+    @IBOutlet weak var GEGPloginButton: UIButton!
     @IBOutlet weak var CreateAccountButton: UIButton!
     
     
@@ -80,23 +81,3 @@ class FirstViewController: UIViewController, FBSDKLoginButtonDelegate {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
