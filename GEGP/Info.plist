@@ -63,6 +63,17 @@
 		<string>MKDirectionsModeTaxi</string>
 		<string>MKDirectionsModeTrain</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to be able to upload images of new places.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Hi, I'd like to use your location to tag new locations for the GEGP App</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to be able to upload images of new places.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

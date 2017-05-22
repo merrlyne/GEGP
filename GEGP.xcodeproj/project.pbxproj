@@ -16,13 +16,16 @@
 		73DB48451EB0164100E82C92 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB48441EB0164100E82C92 /* MapPin.swift */; };
 		73DB48471EB0411600E82C92 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB48461EB0411600E82C92 /* DatabaseController.swift */; };
 		73DB48491EB0EA3200E82C92 /* TagLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB48481EB0EA3200E82C92 /* TagLocationViewController.swift */; };
-		73DB484B1EB0F3E800E82C92 /* BuildingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB484A1EB0F3E800E82C92 /* BuildingController.swift */; };
+		73DB484B1EB0F3E800E82C92 /* TAMUCBuildingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB484A1EB0F3E800E82C92 /* TAMUCBuildingController.swift */; };
 		73E9D0AC1E6798FC00758A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AB1E6798FC00758A53 /* AppDelegate.swift */; };
 		73E9D0AE1E6798FC00758A53 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AD1E6798FC00758A53 /* MapViewController.swift */; };
 		73E9D0B01E6798FC00758A53 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E9D0AF1E6798FC00758A53 /* SearchViewController.swift */; };
 		73E9D0B31E6798FC00758A53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E9D0B11E6798FC00758A53 /* Main.storyboard */; };
 		73E9D0B51E6798FC00758A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E9D0B41E6798FC00758A53 /* Assets.xcassets */; };
 		73E9D0B81E6798FC00758A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E9D0B61E6798FC00758A53 /* LaunchScreen.storyboard */; };
+		73F3A9921EB1207300FAA085 /* TAMUCDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73F3A9901EB1207300FAA085 /* TAMUCDataModel.xcdatamodeld */; };
+		73F3A9941EB1252900FAA085 /* LocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3A9931EB1252900FAA085 /* LocationsController.swift */; };
+		73F3A9961EB1985B00FAA085 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F3A9951EB1985B00FAA085 /* ImageViewController.swift */; };
 		BA568DA4A3181B506609275E /* Pods_GEGP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2228A58E762429DDD3CDFD25 /* Pods_GEGP.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +41,7 @@
 		73DB48441EB0164100E82C92 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
 		73DB48461EB0411600E82C92 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
 		73DB48481EB0EA3200E82C92 /* TagLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagLocationViewController.swift; sourceTree = "<group>"; };
-		73DB484A1EB0F3E800E82C92 /* BuildingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingController.swift; sourceTree = "<group>"; };
+		73DB484A1EB0F3E800E82C92 /* TAMUCBuildingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TAMUCBuildingController.swift; sourceTree = "<group>"; };
 		73E9D0A81E6798FC00758A53 /* GEGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E9D0AB1E6798FC00758A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73E9D0AD1E6798FC00758A53 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +51,9 @@
 		73E9D0B71E6798FC00758A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E9D0B91E6798FC00758A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73E9D0BF1E679E8B00758A53 /* GEGP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GEGP.entitlements; sourceTree = "<group>"; };
+		73F3A9911EB1207300FAA085 /* TAMUCDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TAMUCDataModel.xcdatamodel; sourceTree = "<group>"; };
+		73F3A9931EB1252900FAA085 /* LocationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsController.swift; sourceTree = "<group>"; };
+		73F3A9951EB1985B00FAA085 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		8762E734B37BC67231D20A98 /* Pods-GEGP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEGP.release.xcconfig"; path = "Pods/Target Support Files/Pods-GEGP/Pods-GEGP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,9 +112,12 @@
 				7367DB101E720A2700800D71 /* LoginGEGPViewController.swift */,
 				7367DB121E720A4300800D71 /* CreateAccountViewController.swift */,
 				73DB48481EB0EA3200E82C92 /* TagLocationViewController.swift */,
-				73DB484A1EB0F3E800E82C92 /* BuildingController.swift */,
+				73DB484A1EB0F3E800E82C92 /* TAMUCBuildingController.swift */,
 				73DB48441EB0164100E82C92 /* MapPin.swift */,
 				73E9D0B11E6798FC00758A53 /* Main.storyboard */,
+				73F3A9951EB1985B00FAA085 /* ImageViewController.swift */,
+				73F3A9931EB1252900FAA085 /* LocationsController.swift */,
+				73F3A9901EB1207300FAA085 /* TAMUCDataModel.xcdatamodeld */,
 				73E9D0B41E6798FC00758A53 /* Assets.xcassets */,
 				73E9D0B61E6798FC00758A53 /* LaunchScreen.storyboard */,
 				73E9D0B91E6798FC00758A53 /* Info.plist */,
@@ -264,12 +273,15 @@
 				73E9D0B01E6798FC00758A53 /* SearchViewController.swift in Sources */,
 				7367DB111E720A2700800D71 /* LoginGEGPViewController.swift in Sources */,
 				73E9D0AC1E6798FC00758A53 /* AppDelegate.swift in Sources */,
+				73F3A9921EB1207300FAA085 /* TAMUCDataModel.xcdatamodeld in Sources */,
 				730079541E68DE25002D0D2F /* ProfileViewController.swift in Sources */,
 				73DB48471EB0411600E82C92 /* DatabaseController.swift in Sources */,
 				73DB48491EB0EA3200E82C92 /* TagLocationViewController.swift in Sources */,
 				7367DB0D1E71F5DE00800D71 /* LoginViewController.swift in Sources */,
+				73F3A9941EB1252900FAA085 /* LocationsController.swift in Sources */,
+				73F3A9961EB1985B00FAA085 /* ImageViewController.swift in Sources */,
 				73DB48451EB0164100E82C92 /* MapPin.swift in Sources */,
-				73DB484B1EB0F3E800E82C92 /* BuildingController.swift in Sources */,
+				73DB484B1EB0F3E800E82C92 /* TAMUCBuildingController.swift in Sources */,
 				73E9D0AE1E6798FC00758A53 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +407,7 @@
 				CODE_SIGN_ENTITLEMENTS = GEGP/GEGP.entitlements;
 				DEVELOPMENT_TEAM = 7QUWUVX922;
 				INFOPLIST_FILE = GEGP/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erickfry.GEGP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,7 +423,7 @@
 				CODE_SIGN_ENTITLEMENTS = GEGP/GEGP.entitlements;
 				DEVELOPMENT_TEAM = 7QUWUVX922;
 				INFOPLIST_FILE = GEGP/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erickfry.GEGP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +453,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73F3A9901EB1207300FAA085 /* TAMUCDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73F3A9911EB1207300FAA085 /* TAMUCDataModel.xcdatamodel */,
+			);
+			currentVersion = 73F3A9911EB1207300FAA085 /* TAMUCDataModel.xcdatamodel */;
+			path = TAMUCDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 73E9D0A01E6798FC00758A53 /* Project object */;
 }
